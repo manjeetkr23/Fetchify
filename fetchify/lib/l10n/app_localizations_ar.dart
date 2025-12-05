@@ -377,7 +377,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get supportTheProject => 'دعم المشروع';
 
   @override
-  String get supportShotsStudio => 'Fetchify';
+  String get supportShotsStudio => 'دعم Shots Studio';
 
   @override
   String get supportDescription =>
@@ -394,7 +394,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get supportFooterDescription =>
-      'شكراً لكم على التفكير في دعم هذا المشروع. مساهمتكم تساعدنا في الحفاظ على Fetchify وتحسينه. للترتيبات الخاصة أو التحويلات المصرفية الدولية، يرجى التواصل عبر GitHub.';
+      'شكراً لكم على التفكير في دعم هذا المشروع. مساهمتكم تساعدنا في الحفاظ على Shots Studio وتحسينه. للترتيبات الخاصة أو التحويلات المصرفية الدولية، يرجى التواصل عبر GitHub.';
 
   @override
   String get contactOnGitHub => 'التواصل عبر GitHub';

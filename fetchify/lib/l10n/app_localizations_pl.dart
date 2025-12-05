@@ -379,7 +379,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get supportTheProject => 'Wspieraj projekt';
 
   @override
-  String get supportShotsStudio => 'Wspieraj Fetchify';
+  String get supportShotsStudio => 'Wspieraj Shots Studio';
 
   @override
   String get supportDescription =>
@@ -396,7 +396,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get supportFooterDescription =>
-      'Dziękujemy za rozważenie wsparcia tego projektu. Twój wkład pomaga nam utrzymywać i ulepszać Fetchify. W przypadku specjalnych ustaleń lub międzynarodowych przelewów bankowych, skontaktuj się z nami przez GitHub.';
+      'Dziękujemy za rozważenie wsparcia tego projektu. Twój wkład pomaga nam utrzymywać i ulepszać Shots Studio. W przypadku specjalnych ustaleń lub międzynarodowych przelewów bankowych, skontaktuj się z nami przez GitHub.';
 
   @override
   String get contactOnGitHub => 'Kontakt na GitHub';

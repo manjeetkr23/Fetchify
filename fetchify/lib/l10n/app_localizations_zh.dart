@@ -9,7 +9,7 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appTitle => 'Fetchify';
+  String get appTitle => '截图工作室';
 
   @override
   String get searchScreenshots => '搜索截图';
@@ -371,7 +371,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get supportTheProject => '支持项目';
 
   @override
-  String get supportShotsStudio => '支持 Fetchify';
+  String get supportShotsStudio => '支持 Shots Studio';
 
   @override
   String get supportDescription => '您的支持有助于保持这个项目的活力，并使我们能够添加令人惊叹的新功能';
@@ -387,7 +387,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get supportFooterDescription =>
-      '感谢您考虑支持这个项目。您的贡献帮助我们维护和改进 Fetchify。如需特殊安排或国际电汇，请通过 GitHub 联系我们。';
+      '感谢您考虑支持这个项目。您的贡献帮助我们维护和改进 Shots Studio。如需特殊安排或国际电汇，请通过 GitHub 联系我们。';
 
   @override
   String get contactOnGitHub => '在 GitHub 上联系';

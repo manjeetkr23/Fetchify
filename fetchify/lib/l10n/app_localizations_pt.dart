@@ -9,7 +9,7 @@ class AppLocalizationsPt extends AppLocalizations {
   AppLocalizationsPt([String locale = 'pt']) : super(locale);
 
   @override
-  String get appTitle => 'Fetchify';
+  String get appTitle => 'Shots Studio';
 
   @override
   String get searchScreenshots => 'Pesquisar Capturas de Tela';
@@ -377,7 +377,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get supportTheProject => 'Apoiar o projeto';
 
   @override
-  String get supportShotsStudio => 'Apoiar Fetchify';
+  String get supportShotsStudio => 'Apoiar Shots Studio';
 
   @override
   String get supportDescription =>
@@ -394,7 +394,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get supportFooterDescription =>
-      'Obrigado por considerar apoiar este projeto. Sua contribuição nos ajuda a manter e melhorar o Fetchify. Para arranjos especiais ou transferências bancárias internacionais, entre em contato via GitHub.';
+      'Obrigado por considerar apoiar este projeto. Sua contribuição nos ajuda a manter e melhorar o Shots Studio. Para arranjos especiais ou transferências bancárias internacionais, entre em contato via GitHub.';
 
   @override
   String get contactOnGitHub => 'Contato no GitHub';
