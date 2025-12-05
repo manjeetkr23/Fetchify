@@ -1,6 +1,6 @@
 # Contributing to Shots Studio
 
-Thank you for your interest in contributing to **Shots Studio**! We welcome contributions of all kinds — whether it's code, bug reports, feature ideas, documentation improvements, or community support.
+Thank you for your interest in contributing to **Fetchify**! We welcome contributions of all kinds — whether it's code, bug reports, feature ideas, documentation improvements, or community support.
 
 ## Table of Contents
 
