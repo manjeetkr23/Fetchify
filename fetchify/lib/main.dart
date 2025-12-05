@@ -179,7 +179,7 @@ class _MyAppState extends State<MyApp> {
         );
 
         return MaterialApp(
-          title: 'Shots Studio',
+          title: 'Fetchify',
           localizationsDelegates: const [
             AppLocalizations.delegate,
             GlobalMaterialLocalizations.delegate,

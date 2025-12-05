@@ -9,7 +9,7 @@ class AppLocalizationsJa extends AppLocalizations {
   AppLocalizationsJa([String locale = 'ja']) : super(locale);
 
   @override
-  String get appTitle => 'Shots Studio';
+  String get appTitle => 'Fetchify';
 
   @override
   String get searchScreenshots => 'スクリーンショットを検索';
@@ -373,7 +373,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get supportTheProject => 'プロジェクトを支援';
 
   @override
-  String get supportShotsStudio => 'Shots Studioを支援';
+  String get supportShotsStudio => 'Fetchifyを支援';
 
   @override
   String get supportDescription =>
@@ -390,7 +390,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get supportFooterDescription =>
-      'このプロジェクトの支援をご検討いただき、ありがとうございます。あなたの貢献により、Shots Studioの維持と改善ができます。特別な取り決めや国際銀行振込については、GitHubからお問い合わせください。';
+      'このプロジェクトの支援をご検討いただき、ありがとうございます。あなたの貢献により、Fetchifyの維持と改善ができます。特別な取り決めや国際銀行振込については、GitHubからお問い合わせください。';
 
   @override
   String get contactOnGitHub => 'GitHubで連絡';

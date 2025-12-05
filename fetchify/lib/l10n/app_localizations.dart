@@ -123,7 +123,7 @@ abstract class AppLocalizations {
   /// The application title
   ///
   /// In en, this message translates to:
-  /// **'Shots Studio'**
+  /// **'Fetchify'**
   String get appTitle;
 
   /// Tooltip for search button
@@ -843,7 +843,7 @@ abstract class AppLocalizations {
   /// Main title in sponsorship dialog
   ///
   /// In en, this message translates to:
-  /// **'Support Shots Studio'**
+  /// **'Support Fetchify'**
   String get supportShotsStudio;
 
   /// Description text in sponsorship dialog
@@ -873,7 +873,7 @@ abstract class AppLocalizations {
   /// Footer description in sponsorship dialog
   ///
   /// In en, this message translates to:
-  /// **'Thank you for considering supporting this project. Your contribution helps us maintain and improve Shots Studio. For special arrangements or international wire transfers, please reach out via GitHub.'**
+  /// **'Thank you for considering supporting this project. Your contribution helps us maintain and improve Fetchify. For special arrangements or international wire transfers, please reach out via GitHub.'**
   String get supportFooterDescription;
 
   /// Button text to contact developer on GitHub

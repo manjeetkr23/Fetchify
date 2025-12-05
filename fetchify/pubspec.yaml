@@ -102,4 +102,4 @@ sentry:
   upload_debug_symbols: true
   upload_source_maps: true
   project: flutter
-  org: shots-studio
+  org: fetchify

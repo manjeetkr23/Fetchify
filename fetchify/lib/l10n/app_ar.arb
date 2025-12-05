@@ -1,6 +1,6 @@
 {
   "@@locale": "ar",
-  "appTitle": "استوديو اللقطات",
+  "appTitle": "Fetchify",
   "searchScreenshots": "البحث في لقطات الشاشة",
   "analyzed": "تم تحليل {count}/{total}",
   "developerModeDisabled": "تم تعطيل الإعدادات المتقدمة",

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Build script for different flavors of Shots Studio
+# Build script for different flavors of Fetchify
 # Usage: ./build_flavors.sh [flavor] [build_type]
 # Flavors: fdroid (default), github, playstore, dog
 # Build types: debug (default), release, profile
@@ -8,7 +8,7 @@
 FLAVOR=${1:-fdroid}
 BUILD_TYPE=${2:-debug}
 
-echo "Building Shots Studio - Flavor: $FLAVOR, Type: $BUILD_TYPE"
+echo "Building Fetchify - Flavor: $FLAVOR, Type: $BUILD_TYPE"
 
 case $FLAVOR in
     fdroid)

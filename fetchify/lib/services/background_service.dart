@@ -173,7 +173,7 @@ class BackgroundProcessingService {
       }
 
       updateCustomNotification(
-        title: 'Shots Studio AI Service',
+        title: 'Fetchify AI Service',
         content: 'Service is ready',
         ongoing: false,
       );

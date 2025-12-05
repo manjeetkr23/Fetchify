@@ -17,23 +17,23 @@ class DisplayUtils {
         final refreshRate = view.display.refreshRate;
 
         debugPrint(
-          "Shots Studio: Display refresh rate detected: ${refreshRate}Hz",
+          "Fetchify: Display refresh rate detected: ${refreshRate}Hz",
         );
 
         if (refreshRate > 60) {
           _highRefreshRateEnabled = true;
           debugPrint(
-            "Shots Studio: High refresh rate display detected and enabled",
+            "Fetchify: High refresh rate display detected and enabled",
           );
 
           // Enable ProMotion on iOS and high refresh rate on Android
           await _enablePlatformOptimizations();
         } else {
-          debugPrint("Shots Studio: Standard 60Hz display detected");
+          debugPrint("Fetchify: Standard 60Hz display detected");
         }
       }
     } catch (e) {
-      debugPrint("Shots Studio: Could not detect display refresh rate: $e");
+      debugPrint("Fetchify: Could not detect display refresh rate: $e");
     }
   }
 
@@ -50,13 +50,13 @@ class DisplayUtils {
         await SystemChannels.platform.invokeMethod(
           'SystemChrome.setApplicationSwitcherDescription',
           {
-            'label': 'Shots Studio',
+            'label': 'Fetchify',
             'primaryColor': 0xFF6366F1, // App primary color
           },
         );
       }
     } catch (e) {
-      debugPrint("Shots Studio: Platform optimization failed: $e");
+      debugPrint("Fetchify: Platform optimization failed: $e");
     }
   }
 
@@ -68,7 +68,7 @@ class DisplayUtils {
         return binding.platformDispatcher.views.first.display.refreshRate;
       }
     } catch (e) {
-      debugPrint("Shots Studio: Could not get refresh rate: $e");
+      debugPrint("Fetchify: Could not get refresh rate: $e");
     }
     return 60.0; // Default to 60Hz
   }

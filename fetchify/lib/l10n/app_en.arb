@@ -1,6 +1,6 @@
 {
   "@@locale": "en",
-  "appTitle": "Shots Studio",
+  "appTitle": "Fetchify",
   "@appTitle": {
     "description": "The application title"
   },
@@ -478,7 +478,7 @@
   "@supportTheProject": {
     "description": "Title for sponsorship dialog and support button"
   },
-  "supportShotsStudio": "Support Shots Studio",
+  "supportShotsStudio": "Support Fetchify",
   "@supportShotsStudio": {
     "description": "Main title in sponsorship dialog"
   },
@@ -498,7 +498,7 @@
   "@everyContributionMatters": {
     "description": "Footer title in sponsorship dialog"
   },
-  "supportFooterDescription": "Thank you for considering supporting this project. Your contribution helps us maintain and improve Shots Studio. For special arrangements or international wire transfers, please reach out via GitHub.",
+  "supportFooterDescription": "Thank you for considering supporting this project. Your contribution helps us maintain and improve Fetchify. For special arrangements or international wire transfers, please reach out via GitHub.",
   "@supportFooterDescription": {
     "description": "Footer description in sponsorship dialog"
   },

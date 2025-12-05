@@ -162,7 +162,7 @@ class _UpdateDialogState extends State<UpdateDialog> {
           children: [
             if (!_isInstalling) ...[
               Text(
-                'A new version of Shots Studio is available!',
+                'A new version of Fetchify is available!',
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
               const SizedBox(height: 16),

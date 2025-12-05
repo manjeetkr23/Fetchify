@@ -9,7 +9,7 @@ class AppLocalizationsRu extends AppLocalizations {
   AppLocalizationsRu([String locale = 'ru']) : super(locale);
 
   @override
-  String get appTitle => 'Shots Studio';
+  String get appTitle => 'Fetchify';
 
   @override
   String get searchScreenshots => 'Поиск скриншотов';

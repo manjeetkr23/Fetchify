@@ -261,7 +261,7 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
                               child: GestureDetector(
                                 onTap: () async {
                                   const url =
-                                      'https://github.com/AnsahMohammad/shots-studio/blob/main/fetchify/lib/services/analytics/posthog_analytics_service.dart';
+                                      'https://github.com/manishrwt86/Fetchify/blob/main/fetchify/lib/services/analytics/posthog_analytics_service.dart';
                                   final Uri uri = Uri.parse(url);
                                   if (await canLaunchUrl(uri)) {
                                     await launchUrl(

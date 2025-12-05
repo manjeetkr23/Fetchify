@@ -144,7 +144,7 @@ class SponsorshipDialog extends StatelessWidget {
                               AppLocalizations.of(
                                     context,
                                   )?.supportShotsStudio ??
-                                  'Support Shots Studio',
+                                  'Support Fetchify',
                               style: theme.textTheme.headlineMedium?.copyWith(
                                 fontWeight: FontWeight.w700,
                                 color: theme.colorScheme.onSurface,
@@ -295,7 +295,7 @@ class SponsorshipDialog extends StatelessWidget {
                         AppLocalizations.of(
                               context,
                             )?.supportFooterDescription ??
-                            'Thank you for considering supporting this project. Your contribution helps us maintain and improve Shots Studio. For special arrangements or international wire transfers, please reach out via GitHub.',
+                            'Thank you for considering supporting this project. Your contribution helps us maintain and improve Fetchify. For special arrangements or international wire transfers, please reach out via GitHub.',
                         style: theme.textTheme.bodyMedium?.copyWith(
                           color: theme.colorScheme.onSurfaceVariant,
                           height: 1.5,
@@ -313,7 +313,7 @@ class SponsorshipDialog extends StatelessWidget {
                             'sponsorship_contact_button',
                           );
 
-                          _launchURL('https://github.com/AnsahMohammad');
+                          _launchURL('https://github.com/manjeetkr23');
                         },
                         child: Text(
                           AppLocalizations.of(context)?.contactOnGitHub ??

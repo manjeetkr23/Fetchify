@@ -33,8 +33,8 @@ class AboutSection extends StatelessWidget {
 
   Future<void> _openDonationPage(BuildContext context) async {
     const List<String> donationUrls = [
-      'https://ansahmohammad.github.io/shots-studio/donation.html',
-      'https://shots-studio-854420.gitlab.io/donation.html',
+      '#',
+      '#',
     ];
 
     bool launched = false;
@@ -79,8 +79,7 @@ class AboutSection extends StatelessWidget {
 
   Future<void> _openSourceCode(BuildContext context) async {
     const List<String> sourceCodeUrls = [
-      'https://github.com/AnsahMohammad/shots-studio',
-      'https://gitlab.com/mohdansah10/shots-studio',
+      'https://github.com/manishrwt86/Fetchify',
     ];
 
     bool launched = false;
@@ -158,8 +157,8 @@ class AboutSection extends StatelessWidget {
   /// Fetches feedback URL from remote sources with fallback
   Future<String?> _getFeedbackUrl() async {
     const List<String> feedbackUrls = [
-      'https://ansahmohammad.github.io/shots-studio/feedback.json',
-      'https://gitlab.com/mohdansah10/shots-studio/-/raw/main/docs/feedback.json',
+      '#',
+      '#',
     ];
 
     for (final url in feedbackUrls) {

@@ -34,7 +34,7 @@ class PrivacyContentProvider {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              "Welcome to Shots Studio",
+              "Welcome to Fetchify",
               style: TextStyle(
                 color: theme.colorScheme.primary,
                 fontSize: 16,
@@ -43,7 +43,7 @@ class PrivacyContentProvider {
             ),
             const SizedBox(height: 8),
             Text(
-              "At Shots Studio, we believe your privacy is fundamental. This privacy policy explains how we handle your data, what information we collect (if any), and how we protect your personal information. We've designed our app with privacy-first principles, ensuring that your screenshots and personal data remain under your control.",
+              "At Fetchify, we believe your privacy is fundamental. This privacy policy explains how we handle your data, what information we collect (if any), and how we protect your personal information. We've designed our app with privacy-first principles, ensuring that your screenshots and personal data remain under your control.",
               style: TextStyle(
                 color: theme.colorScheme.onSurfaceVariant,
                 height: 1.5,
@@ -52,7 +52,7 @@ class PrivacyContentProvider {
             ),
             const SizedBox(height: 8),
             Text(
-              "Please take a moment to read through this information to understand how Shots Studio respects and protects your privacy.",
+              "Please take a moment to read through this information to understand how Fetchify respects and protects your privacy.",
               style: TextStyle(
                 color: theme.colorScheme.onSurfaceVariant,
                 height: 1.5,
@@ -76,7 +76,7 @@ class PrivacyContentProvider {
       ),
       const SizedBox(height: 8),
       Text(
-        "Shots Studio offers two distinct AI processing methods for processing your images, each with different privacy implications:",
+        "Fetchify offers two distinct AI processing methods for processing your images, each with different privacy implications:",
         style: TextStyle(
           color: theme.colorScheme.onSurfaceVariant,
           height: 1.4,
@@ -374,7 +374,7 @@ class PrivacyContentProvider {
           onTap:
               () => launchUrlCallback(
                 context,
-                'https://ansahmohammad.github.io/shots-studio/privacy.html',
+                '#',
               ),
         ),
       ),

@@ -95,7 +95,7 @@ class _ApiKeyGuideDialogState extends State<ApiKeyGuideDialog> {
           const SizedBox(width: 8),
           Flexible(
             child: Text(
-              'Welcome to Shots Studio!',
+              'Welcome to Fetchify!',
               style: TextStyle(color: theme.colorScheme.primary),
               overflow: TextOverflow.ellipsis,
             ),

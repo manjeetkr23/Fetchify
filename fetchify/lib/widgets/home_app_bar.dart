@@ -34,7 +34,7 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
 
     return AppBar(
       title: Text(
-        AppLocalizations.of(context)?.appTitle ?? 'Shots Studio',
+        AppLocalizations.of(context)?.appTitle ?? 'Fetchify',
         style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
       ),
       elevation: 0,

@@ -80,7 +80,7 @@ class XMPMetadataService {
 
           print('XMP: Successfully wrote metadata to ${screenshot.path}');
           print(
-            'XMP: Added searchable EXIF metadata - Title: "${screenshot.title}" (XPTitle+ImageDescription), Tags: "${screenshot.tags.join(";")}" (XPKeywords), Description: "${screenshot.description}" (UserComment), Software: Shots Studio',
+            'XMP: Added searchable EXIF metadata - Title: "${screenshot.title}" (XPTitle+ImageDescription), Tags: "${screenshot.tags.join(";")}" (XPKeywords), Description: "${screenshot.description}" (UserComment), Software: Fetchify',
           );
           return true;
         } catch (writeError) {
@@ -163,7 +163,7 @@ class XMPMetadataService {
     buffer.writeln('      <dc:creator>');
     buffer.writeln('        <rdf:Seq>');
     buffer.writeln(
-      '          <rdf:li>Shots Studio ${packageInfo.version}</rdf:li>',
+      '          <rdf:li>Fetchify ${packageInfo.version}</rdf:li>',
     );
     buffer.writeln('        </rdf:Seq>');
     buffer.writeln('      </dc:creator>');
@@ -177,7 +177,7 @@ class XMPMetadataService {
 
     // Add software information
     buffer.writeln(
-      '      <xmp:CreatorTool>Shots Studio ${packageInfo.version}</xmp:CreatorTool>',
+      '      <xmp:CreatorTool>Fetchify ${packageInfo.version}</xmp:CreatorTool>',
     );
 
     // Add AI model information if available
@@ -269,7 +269,7 @@ class XMPMetadataService {
 
       // Add software tag (305 is the standard EXIF tag for Software)
       final packageInfo = await PackageInfo.fromPlatform();
-      image.exif.imageIfd[305] = 'Shots Studio ${packageInfo.version}';
+      image.exif.imageIfd[305] = 'Fetchify ${packageInfo.version}';
 
       // Add processing date (306 is the standard EXIF tag for DateTime)
       final processingDate =

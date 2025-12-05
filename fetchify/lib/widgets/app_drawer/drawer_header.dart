@@ -166,7 +166,7 @@ class _AppDrawerHeaderState extends State<AppDrawerHeader>
                 ),
               ),
               Text(
-                'Shots Studio',
+                'Fetchify',
                 style: TextStyle(
                   color: theme.colorScheme.onPrimaryContainer,
                   fontSize: 24,

@@ -8,7 +8,7 @@ class SponsorshipService {
       id: 'buymeacoffee',
       title: 'Buy Me a Coffee',
       subtitle: 'A quick and simple way to support the project ☕',
-      url: 'https://www.buymeacoffee.com/ansahk',
+      url: 'https://www.buymeacoffee.com/manishrawa7',
       icon: Icons.coffee_rounded,
       iconColor: Color(0xFFFFDD00), // Coffee yellow
       enabled: true,
@@ -21,7 +21,7 @@ class SponsorshipService {
       id: 'github',
       title: 'GitHub Sponsors',
       subtitle: 'Monthly/One-time sponsorship via GitHub.',
-      url: 'https://github.com/sponsors/AnsahMohammad',
+      url: 'https://github.com/sponsors/manishiiitl1261',
       icon: Icons.favorite_rounded,
       iconColor: Colors.redAccent,
       enabled: true,

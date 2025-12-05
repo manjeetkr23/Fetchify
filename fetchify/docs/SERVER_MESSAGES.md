@@ -42,7 +42,7 @@ The server message system allows sending announcements, notifications, and updat
 
 ```dart
 // In ServerMessageService
-static const String messagesUrl = 'https://ansahmohammad.github.io/shots-studio/messages.json';
+static const String messagesUrl = '#';
 ```
 
 ### JSON File Format
@@ -57,8 +57,8 @@ The JSON file hosted on GitHub Pages should follow this structure:
     {
       "show": true,
       "id": "welcome_new_users_2025",
-      "title": "Welcome to Shots Studio!",
-      "message": "Thanks for downloading Shots Studio! Organize your screenshots like never before.",
+      "title": "Welcome to Fetchify!",
+      "message": "Thanks for downloading Fetchify! Organize your screenshots like never before.",
       "type": "info",
       "priority": "medium",
       "show_once": true,
@@ -120,7 +120,7 @@ Examples:
 ## Request Details
 
 ```
-GET https://ansahmohammad.github.io/shots-studio/messages.json
+GET "#"
 ```
 
 **Headers:**
@@ -171,7 +171,7 @@ final messageInfo = await ServerMessageService.checkForMessages(forceFetch: true
 Update the messages URL in `ServerMessageService`:
 
 ```dart
-static const String messagesUrl = 'https://ansahmohammad.github.io/shots-studio/messages.json';
+static const String messagesUrl = '#';
 ```
 
 ### Request Cooldown
