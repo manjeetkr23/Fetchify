@@ -1,4 +1,4 @@
-# Git Hooks for Shots Studio
+# Git Hooks for Fetchify
 
 This directory contains Git hooks that automate various tasks during development.
 

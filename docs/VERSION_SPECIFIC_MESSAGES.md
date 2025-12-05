@@ -1,6 +1,6 @@
 # Version-Specific Server Messages
 
-This document explains the new version-specific server messaging system implemented in Shots Studio.
+This document explains the new version-specific server messaging system implemented in Fetchify.
 
 ## Overview
 
@@ -22,6 +22,7 @@ docs/
 ## How It Works
 
 1. **Version-Specific URL**: The app constructs a URL based on its current version:
+
    - Format: `https://ansahmohammad.github.io/shots-studio/[VERSION]/messages.json`
    - Example: `https://ansahmohammad.github.io/shots-studio/1.8.115/messages.json`
 
@@ -65,6 +66,7 @@ Existing versions will continue to work with the fallback mechanism using the ge
 ## Example Usage
 
 For version `1.8.115`, the app will:
+
 1. Try to fetch: `https://ansahmohammad.github.io/shots-studio/1.8.115/messages.json`
 2. If that fails, fallback to: `https://ansahmohammad.github.io/shots-studio/messages.json`
 

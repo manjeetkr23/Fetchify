@@ -1,6 +1,6 @@
-# Shots Studio Company Website
+# Fetchify Company Website
 
-This is the official company website for Shots Studio, designed for KYC verification and professional presentation.
+This is the official company website for Fetchify, designed for KYC verification and professional presentation.
 
 ## Structure
 
@@ -19,6 +19,7 @@ company-website/
 ## Features
 
 ### Homepage (index.html)
+
 - Modern, responsive design
 - Hero section with call-to-action
 - Feature showcase
@@ -28,6 +29,7 @@ company-website/
 - Professional footer
 
 ### Documentation (documentation.html)
+
 - Complete user guide
 - API reference
 - Installation instructions
@@ -36,6 +38,7 @@ company-website/
 - Responsive sidebar navigation
 
 ### Legal Pages
+
 - Privacy Policy (privacy.html)
 - Terms of Service (terms.html)
 
@@ -60,18 +63,21 @@ company-website/
 ## Customization
 
 ### Update Company Information
+
 1. Edit contact details in `index.html` (email, address, phone)
 2. Update social media links in the footer
 3. Modify the about section with actual company story
 4. Replace placeholder statistics with real numbers
 
 ### Add Real Assets
+
 1. Replace logo placeholder in `assets/logo.png`
 2. Add real team photo in `assets/team-photo.jpg`
 3. Update screenshots with actual app images
 4. Add favicon and other icons
 
 ### Update Links
+
 1. Replace GitHub repository URLs
 2. Update download links to actual APK releases
 3. Modify documentation links as needed
@@ -80,17 +86,21 @@ company-website/
 ## Deployment
 
 ### GitHub Pages
+
 1. Push to a GitHub repository
 2. Enable GitHub Pages in repository settings
 3. Choose source branch (usually `main` or `gh-pages`)
 
 ### Custom Domain
+
 1. Add a `CNAME` file with your domain
 2. Configure DNS settings with your domain provider
 3. Enable HTTPS in GitHub Pages settings
 
 ### Other Hosting
+
 The website is static HTML/CSS/JS and can be hosted on:
+
 - Netlify
 - Vercel
 - AWS S3 + CloudFront
@@ -99,6 +109,7 @@ The website is static HTML/CSS/JS and can be hosted on:
 ## SEO Optimization
 
 The website includes:
+
 - Meta descriptions and keywords
 - Open Graph tags for social sharing
 - Twitter Card meta tags
@@ -129,12 +140,14 @@ The website includes:
 ## Maintenance
 
 ### Regular Updates
+
 - Keep documentation in sync with app updates
 - Update download links for new releases
 - Refresh testimonials and statistics
 - Monitor and fix any broken links
 
 ### Security
+
 - Keep dependencies updated
 - Regular security audits
 - HTTPS enforcement
@@ -143,5 +156,6 @@ The website includes:
 ## Contact
 
 For questions about this website, contact:
+
 - Email: hello@shotsstudio.com
-- GitHub: [Repository Issues](https://github.com/yourusername/shots-studio/issues)
+- GitHub: [Repository Issues](https://github.com/yourusername/Fetchify/issues)

@@ -20,7 +20,7 @@ Customizable AI output language – Your AI assistant now speaks your preferred 
 On-device AI for all users – Fully private, offline-capable intelligence.
 In-app Gemma model download (gemma-3n-e2b-it) – No manual setup required.
 Clickable info parsing by AI – Instantly interpret links & text from images.
-Seamless in-app updates – Update directly within Shots Studio, no external site visits needed.
+Seamless in-app updates – Update directly within Fetchify, no external site visits needed.
 One-tap corrupt image removal – Quickly clean up broken media.
 No update prompts for F-Droid users – Smoother app flow.
 Image-supported notifications for richer alerts.

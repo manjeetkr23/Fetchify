@@ -1,4 +1,4 @@
-# Build Flavors for Shots Studio
+# Build Flavors for Fetchify
 
 This project supports different build flavors based on the distribution source.
 

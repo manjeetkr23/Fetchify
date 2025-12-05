@@ -7,23 +7,23 @@
 <div align="center">
   <img src="fetchify/assets/icon/icon.png" width="20%" />
 
-# Shots Studio
+# Fetchify
 
 A Screenshot Manager to Declutter Your Gallery
 
 </div>
 
-Shots Studio turns your chaotic screenshot folder into an **intelligent, organized archive**.  
+Fetchify turns your chaotic screenshot folder into an **intelligent, organized archive**.  
 Now powered by **on-device AI with Gemma**, you can process screenshots **offline** — faster, private, and without internet dependency.
 
 ---
 
-## What is Shots Studio?
+## What is Fetchify?
 
 Drowning in screenshots you can’t find when you need them?  
-**Shots Studio** brings **AI-driven search, smart tagging, and seamless organization** to your screenshot collection.
+**Fetchify** brings **AI-driven search, smart tagging, and seamless organization** to your screenshot collection.
 
-With Shots Studio, you can:
+With Fetchify, you can:
 
 - **Search** by content — not just file names.
 - Add or generate **tags** automatically using AI.
@@ -72,14 +72,14 @@ With Shots Studio, you can:
 
 ## How It Works + Privacy
 
-By default, Shots Studio can send your screenshot data to **Google’s Gemini API** for cloud-powered analysis.  
+By default, Fetchify can send your screenshot data to **Google’s Gemini API** for cloud-powered analysis.  
 For privacy-first use, switch to **Gemma on-device AI** — no data leaves your phone.
 
 More details: [Gemini API Privacy Policy](https://ai.google.dev/gemini-api/terms).
 
 ---
 
-## Why Shots Studio?
+## Why Fetchify?
 
 - **Declutter your gallery** — No more endless scrolling.
 - **Instant access** — Search like you search your notes.

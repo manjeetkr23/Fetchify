@@ -41,8 +41,8 @@ Before you start contributing, please:
 1. **Fork and clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/shots-studio.git
-   cd shots-studio
+   git clone https://github.com/your-username/fetchify.git
+   cd Fetchify
    ```
 
 2. **Set up Git hooks** (required for version management):
@@ -99,7 +99,7 @@ The build source affects:
 ### Project Structure
 
 ```
-shots-studio/
+Fetchify/
 ├── fetchify/           # Main Flutter application
 │   ├── lib/
 │   │   ├── main.dart      # App entry point
@@ -256,7 +256,7 @@ flutter test test/services/gemini_service_test.dart
 
 If you need help or have questions:
 
-- **GitHub Discussions**: Use [GitHub Discussions](https://github.com/your-username/shots-studio/discussions) for general questions
+- **GitHub Discussions**: Use [GitHub Discussions](https://github.com/your-username/Fetchify/discussions) for general questions
 - **Issues**: Create an issue for specific problems or bugs
 - **Email**: Reach out personally via email (check the main README for contact info)
 

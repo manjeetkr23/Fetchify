@@ -7,13 +7,12 @@ AntiFeatures:
 Categories:
   - Multimedia
   - System
-License: GPL-3.0-only
 AuthorName: Ansah Mohammad
 AuthorEmail: mohdansah10@gmail.com
 SourceCode: https://gitlab.com/mohdansah10/shots-studio
 IssueTracker: https://gitlab.com/mohdansah10/shots-studio/-/issues
 Changelog: https://gitlab.com/mohdansah10/shots-studio/-/releases
-AutoName: Shots Studio
+AutoName: Fetchify
 RepoType: git
 Repo: https://gitlab.com/mohdansah10/shots-studio.git
 Binaries: https://archive.org/download/fetchify-release/fetchify-fdroid-release-%v.apk

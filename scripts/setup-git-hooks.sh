@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script to set up Git hooks for the Shots Studio project
+# Script to set up Git hooks for the Fetchify project
 # Run this script from the project root directory
 
 set -e
@@ -9,7 +9,7 @@ PROJECT_ROOT="$(pwd)"
 HOOKS_DIR="$PROJECT_ROOT/scripts/git-hooks"
 GIT_HOOKS_DIR="$PROJECT_ROOT/.git/hooks"
 
-echo "Setting up Git hooks for Shots Studio..."
+echo "Setting up Git hooks for Fetchify..."
 
 # Check if we're in the right directory
 if [ ! -f "fetchify/pubspec.yaml" ]; then
